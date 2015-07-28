@@ -1,0 +1,7 @@
+name = ChillBox Gallery
+
+description = Just a simple image gallery module.
+
+core = 7.x
+
+configure = chillbox_gallery/settings

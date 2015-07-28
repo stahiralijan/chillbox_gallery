@@ -1,0 +1,46 @@
+ul.chillbox-gallery
+{
+	margin:0;
+	padding:0;
+}
+
+ul.chillbox-gallery > li
+{
+	list-style:none;
+	padding:0;
+	margin:3px;
+}
+ul.chillbox-gallery > li.inline
+{
+	display:inline-block;
+}
+
+ul.chillbox-gallery > li > a
+{
+	padding:0;
+	margin:0;
+	display: inline-block;
+}
+ul.chillbox-gallery > li > a > span
+{
+	display:block;
+	text-align:center;
+	margin-top:3px;
+	background:#fff;
+}
+ul.chillbox-gallery > li > a > img
+{
+	display:block;
+	padding:5px;
+	background: rgb(240,240,240);
+	box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+}
+.caption 
+{
+	overflow: hidden;
+	word-wrap:break-word;
+	width: 105px;
+	white-space: nowrap;
+	display: inline-block;
+	text-overflow: ellipsis;
+}
